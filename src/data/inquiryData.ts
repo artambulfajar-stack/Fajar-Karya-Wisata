@@ -1,0 +1,42 @@
+import { ConsultationInquiry } from '../types/inquiry';
+
+export const INITIAL_INQUIRIES: ConsultationInquiry[] = [
+  {
+    id: 'INQ-2026-001',
+    name: 'Ibu Ratna Dewi (Komite SMP Al-Hikmah Surabaya)',
+    phone: '0812-3344-5566',
+    serviceType: 'Study Tour & Eduwisata',
+    destination: 'Yogyakarta & Candi Prambanan',
+    participants: 120,
+    duration: '3 Hari 2 Malam (3D2N)',
+    notes: 'Rencana keberangkatan bulan November 2026. Mohon rincian paket 3 Big Bus HDD, makan prasmanan 7x, kaos pendamping, dan penginapan ber-AC dekat Malioboro.',
+    createdAt: '2026-10-05 09:30',
+    status: 'Menunggu Balasan',
+  },
+  {
+    id: 'INQ-2026-002',
+    name: 'Bpk. Ahmad Fauzi (Keluarga Besar Sidoarjo)',
+    phone: '0813-9988-7711',
+    serviceType: 'Wisata Keluarga',
+    destination: 'Malang & Kota Wisata Batu',
+    participants: 16,
+    duration: '3 Hari 2 Malam (3D2N)',
+    notes: 'Membawa 4 anak-anak dan 2 lansia. Ingin kendaraan privat HiAce Luxury yang nyaman, kunjungan ke Jatim Park 2 dan petik apel.',
+    createdAt: '2026-10-04 14:15',
+    status: 'Sudah Dibalas',
+    adminReplyNotes: 'Sudah dikirimkan penawaran paket Family Getaway Rp 1.450.000/pax via WhatsApp. Klien sedang berembuk dengan keluarga.',
+    repliedAt: '2026-10-04 15:00',
+  },
+  {
+    id: 'INQ-2026-003',
+    name: 'Mas Dicky Pratama (Komunitas Trail & Adventure)',
+    phone: '0857-1122-3344',
+    serviceType: 'Custom Trip',
+    destination: 'Bromo Sunrise & Kawah Ijen',
+    participants: 25,
+    duration: '4 Hari 3 Malam (4D3N)',
+    notes: 'Ingin trip gabungan Bromo Sunrise Jeep + Midnight trekking Blue Fire Ijen Banyuwangi. Termasuk masker gas dan penginapan resort.',
+    createdAt: '2026-10-03 11:20',
+    status: 'Menunggu Balasan',
+  },
+];

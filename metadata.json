@@ -1,0 +1,6 @@
+{
+  "name": "PT Fajar Karya Wisata",
+  "description": "PT Fajar Karya Wisata - Service Of Priority. Solusi perjalanan wisata yang nyaman, aman, dan terpercaya untuk paket wisata, study tour, eduwisata, wisata keluarga, rombongan perusahaan, dan custom trip.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
